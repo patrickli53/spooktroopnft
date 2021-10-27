@@ -1,0 +1,15 @@
+.footer{
+background-color: white;
+   color: #7B7B7B;
+   padding-left:15%;
+   padding-top:1rem;
+   padding-bottom: 1rem;
+   font-weight:bolder
+}
+
+.icons{
+    float:right;
+    padding-right: 15%;
+    color: #2081E2;
+    font-size: 1.3rem;
+}

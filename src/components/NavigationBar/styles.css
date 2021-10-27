@@ -1,0 +1,14 @@
+.navbg{
+    background-color: black !important;
+}
+
+.navnav{
+    color: white !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logoimg{
+    margin-left: 25%;
+    margin-top:20px;
+}

@@ -1,0 +1,14 @@
+.countdownBox{
+    color: white;
+    width: 85px !important;
+    height: 85px !important;
+    padding-top: 15px;
+    border-style: solid;
+    border-color: rgba(255,255,255, 0.25);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cdRow{
+    margin-left: 30px;
+}

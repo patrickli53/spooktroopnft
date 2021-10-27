@@ -1,0 +1,42 @@
+.collapse-text{
+    color:white;
+    margin-left:2%;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+.collapse-button{
+    width:100%;
+    text-align: left;
+    background-color:rgb(105, 78, 168);
+    border-color:#694EA8
+}
+
+.icon{
+    float: right;
+}
+.faqCon{
+    padding-bottom: 3rem;    
+}
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color:#4e3d78;
+    border-color:#4e3d78
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(105 78 168 / 25%);
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #694EA8;
+    border-color: #694EA8;
+    box-shadow: 0 0 0 0.25rem rgb(105 78 168 / 25%);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #694EA8;
+    border-color:#694EA8
+}
