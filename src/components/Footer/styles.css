@@ -10,6 +10,10 @@ background-color: white;
 .icons{
     float:right;
     padding-right: 15%;
-    color: #2081E2;
+    color: #2081e2;
     font-size: 1.3rem;
+}
+
+.icons a{
+    color: #2081e2;
 }

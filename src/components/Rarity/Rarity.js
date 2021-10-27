@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import first from '../../resources/1254 1 (1).png';
 import second from '../../resources/WhatsApp Image 2021-10-25 at 7.49 2.png';
 import third from '../../resources/484 1 (1).png';
-import fourth from '../../resources/428 (1) 1.png';
+import fourth from '../../resources/428 (1) 1 (1).png';
 import './styles.css';
 
 const Rarity = () => {
