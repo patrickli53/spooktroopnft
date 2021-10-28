@@ -20,9 +20,9 @@ const FAQ = () => {
                 />
                 <FaqCollapse 
                     question='Minting Process' 
-                    answer='Each Spook Troop will cost .03 ETH + gas fees and if you were to mint 10 Spook Troops the cost/Spook Troop will decrease to .02 ETH + gas fees
-                    The Presale will begin on October 29th, @1:00pm EST and will continue for 2 hours and will the lead ton the public sale.
-                    The Public Sale will begin just 2 hours after the presale on October 29th, @3:00pm EST. 
+                    answer='Each Spook Troop will cost .025 ETH + gas fees. 
+                    The Presale will begin on October 30th, @1:00pm EST and will continue for 2 hours and will the lead to the public sale. 
+                    The Public Sale will begin just 2 hours after the presale on October 30th, @3:00pm EST. 
                     '
                 />
                 <FaqCollapse 

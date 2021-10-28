@@ -41,7 +41,7 @@ const renderer = ({ days, hours, minutes, seconds }) => {
 
 const CountdownComp = () => {
     return (
-        <Countdown date={new Date("October 29, 2021 13:00:00")} renderer={renderer} />
+        <Countdown date={new Date("October 30, 2021 13:00:00")} renderer={renderer} />
     )
 }
 
