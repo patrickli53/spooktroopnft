@@ -1,7 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap';
 import Countdown from 'react-countdown';
-import './styles.css';
 const renderer = ({ days, hours, minutes, seconds }) => {
     // Render a countdown
     return <div>
@@ -39,10 +38,10 @@ const renderer = ({ days, hours, minutes, seconds }) => {
     </div>;
 };
 
-const CountdownComp = () => {
+const PreCountdownComp = () => {
     return (
-        <Countdown date={new Date("October 30, 2021 15:00:00")} renderer={renderer} />
+        <Countdown date={new Date("October 30, 2021 13:00:00")} renderer={renderer} />
     )
 }
 
-export default CountdownComp
+export default PreCountdownComp

@@ -7,7 +7,7 @@ const NavigationBar = () => {
     return (
         <>
         <Navbar expand='lg' className='nav navbg' variant="dark">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="/#home">
               <img
                 alt=""
                 src={logo}
@@ -24,10 +24,11 @@ const NavigationBar = () => {
                         
                     </Nav>
                     <Nav >
-                        <Nav.Link className='navnav' href="#home">MINT</Nav.Link>
-                        <Nav.Link className='navnav' href="#Roadmap">Roadmaps</Nav.Link>
-                        <Nav.Link className='navnav' href="#Rarity">Rarity</Nav.Link>
-                        <Nav.Link className='navnav' href="#FAQ">FAQ</Nav.Link>
+                        <Nav.Link className='navnav' href="/#home">MINT</Nav.Link>
+                        <Nav.Link className='navnav' href="/#Roadmap">Roadmaps</Nav.Link>
+                        <Nav.Link className='navnav' href="/#Rarity">Rarity</Nav.Link>
+                        <Nav.Link className='navnav' href="/#FAQ">FAQ</Nav.Link>
+                        <Nav.Link className='navnav' href="/presale">Presale</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
           </Container>
