@@ -75,7 +75,7 @@ const Presale = () => {
                             There are 10,000 monsters roaming around disturbing the peace of the Trick-or-Treater's. Tame your Spook Troop today to save Halloween!                        <br />
                         </div>
                         <PreCountdownComp presale={true}/>
-                        {/* <div>
+                        <div>
                             <span className='minting'>
                                 <Button className="mintButton">
                                     MINT
@@ -83,13 +83,17 @@ const Presale = () => {
                                 <Select
                                     options={options}
                                     styles={customStyles}
-                                    className='drop' />
+                                    className='drop' 
+                                />
+                                <div className='listText'>
+                             0.025 ETH + gas fees
+                                </div>
 
-                            </span> */}
-                            {/* <Button className="mintButton">
+                            </span>
+                            <Button className="mintButton">
                             CONNECT WALLET
-                        </Button> */}
-                        {/* </div> */}
+                            </Button>
+                        </div>
                     </Col>
 
                 </Row>
