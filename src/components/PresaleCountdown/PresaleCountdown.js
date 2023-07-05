@@ -1,9 +1,27 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import Countdown from 'react-countdown';
-const renderer = ({ days, hours, minutes, seconds }) => {
+
+const Finished = () =>  <div>
+<span className='minting'>
+    
+    <a style={{ textDecoration: 'none' }} href="https://etherscan.io/token/0x5dd4235a4833a297c4ce4dcabc7b9921bc795b4b#writeContract" target="_blank"><Button className="mintButton">MINT                                 </Button>
+</a>
+    <div className='listText'>
+        0.025 ETH + gas fees
+    </div>
+
+</span>
+
+</div>;
+
+const renderer = ({ days, hours, minutes, seconds, completed }) => {
+    if (completed) {
+        return <Finished />;
+    }
     // Render a countdown
-    return <div>
+    else{
+        return <div>
         <Row className='cdRow'>
             <Col >
                 <div className='countdownBox'>
@@ -36,11 +54,12 @@ const renderer = ({ days, hours, minutes, seconds }) => {
             </Col>
         </Row>
     </div>;
+    }
 };
 
 const PreCountdownComp = () => {
     return (
-        <Countdown date={new Date("October 30, 2021 13:00:00")} renderer={renderer} />
+        <Countdown date={new Date("October 30, 2021 17:00:00")} renderer={renderer} />
     )
 }
 
