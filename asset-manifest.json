@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/spooktroopnft/static/css/main.1e02990b.chunk.css",
+    "main.js": "/spooktroopnft/static/js/main.283ce8a0.chunk.js",
+    "main.js.map": "/spooktroopnft/static/js/main.283ce8a0.chunk.js.map",
+    "runtime-main.js": "/spooktroopnft/static/js/runtime-main.26ccf059.js",
+    "runtime-main.js.map": "/spooktroopnft/static/js/runtime-main.26ccf059.js.map",
+    "static/js/2.8d103505.chunk.js": "/spooktroopnft/static/js/2.8d103505.chunk.js",
+    "static/js/2.8d103505.chunk.js.map": "/spooktroopnft/static/js/2.8d103505.chunk.js.map",
+    "index.html": "/spooktroopnft/index.html",
+    "static/css/main.1e02990b.chunk.css.map": "/spooktroopnft/static/css/main.1e02990b.chunk.css.map",
+    "static/js/2.8d103505.chunk.js.LICENSE.txt": "/spooktroopnft/static/js/2.8d103505.chunk.js.LICENSE.txt",
+    "static/media/1254 1 (1).7529be6a.png": "/spooktroopnft/static/media/1254 1 (1).7529be6a.png",
+    "static/media/428 (1) 1 (1).d665b8f6.png": "/spooktroopnft/static/media/428 (1) 1 (1).d665b8f6.png",
+    "static/media/484 1 (1).8c543af9.png": "/spooktroopnft/static/media/484 1 (1).8c543af9.png",
+    "static/media/SpookTroop Logo crop 1.12dd2985.png": "/spooktroopnft/static/media/SpookTroop Logo crop 1.12dd2985.png",
+    "static/media/WhatsApp Image 2021-10-25 at 7.49 1.d5ed9b97.png": "/spooktroopnft/static/media/WhatsApp Image 2021-10-25 at 7.49 1.d5ed9b97.png",
+    "static/media/WhatsApp Image 2021-10-25 at 7.49 2.ecaad46f.png": "/spooktroopnft/static/media/WhatsApp Image 2021-10-25 at 7.49 2.ecaad46f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26ccf059.js",
+    "static/js/2.8d103505.chunk.js",
+    "static/css/main.1e02990b.chunk.css",
+    "static/js/main.283ce8a0.chunk.js"
+  ]
+}
